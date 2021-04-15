@@ -14,7 +14,7 @@ const port = process.env.PORT || 4000;
 app.use(express.json());
 
 //database  connection
-const connString = `mongodb+srv://ak6706072:<password>@cluster0.xffya.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const connString = `mongodb+srv://ak6706072:ux9acavqz2@cluster0.xffya.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 mongoose.connect(connString, {
   useNewUrlParser: true,
   useCreateIndex: true,
